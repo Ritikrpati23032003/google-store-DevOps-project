@@ -104,3 +104,19 @@ Need to change the detils
 ### Workflow Diagram
 
 ![Workflow Diagram](https://i.ibb.co/t9WR8c8/drawing.png)
+
+####################
+- First create eks cluster with ebs csi driver add on and give role on add on
+- Create Eks clinet server and update the cluster 
+- give your account acces keey,seret key,git pat token,aws account id on your git hub repositry secrts and variables
+- install argocd cd and git ,mariadb onn eks server
+- initilize the database 
+- Clone the git repositry
+- switch to k8s-argocd
+- First apply backend
+- Next copy the backend loadbalancer url and paste it on front end main folder index.htm    (line no 711 and 712)
+
+- Next apply front end on K8s Argo  cd foldr
+- Next apply efk stack folder
+- Install grfana and promethous on cluster commnds given on repo grafana-prometheous
+- access the application with ingress lb url  
