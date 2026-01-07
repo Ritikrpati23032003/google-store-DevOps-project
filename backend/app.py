@@ -9,7 +9,7 @@ CORS(app)
 
 # ---------------- DATABASE CONFIG ----------------
 db_config = {
-    "host": "terraform-20260107115949295400000001.cglkquyukn4p.us-east-1.rds.amazonaws.com",
+    "host": "terraform-20260107124539805200000005.cglkquyukn4p.us-east-1.rds.amazonaws.com",
     "user": "admin",
     "password": "rrpati23",
     "database": "cloud"
@@ -116,6 +116,7 @@ def get_users():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
     
+
 
 
 
