@@ -9,7 +9,7 @@ CORS(app)
 
 # ---------------- DATABASE CONFIG ----------------
 db_config = {
-    "host": "terraform-694fd31b94962042c2ea826712.c3oaoq2ggssa.us-east-1.rds.amazonaws.com:3306",
+    "host": "terraform-694fd31b94962042c2ea826712.c3oaoq2ggssa.us-east-1.rds.amazonaws.com",
     "user": "admin",
     "password": "rrpati23",
     "database": "cloud"
