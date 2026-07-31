@@ -110,4 +110,5 @@ kubectl -n argocd get secret argocd-initial-admin-secret   -o jsonpath="{.data.p
 - Next apply front end on K8s Argo  cd foldr
 - Next apply efk stack folder
 - Install grfana and promethous on cluster commnds given on repo grafana-prometheous
-- access the application with ingress lb url  
+- access the application with ingress lb url
+- check sg in database
